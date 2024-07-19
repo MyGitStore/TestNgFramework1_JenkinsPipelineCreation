@@ -1,0 +1,12 @@
+com\training\pages\MyprofilePage.class
+com\training\testcases\MySettingsTest.class
+com\training\testcases\OppurtunitiesTest.class
+com\training\pages\MySettingsPage.class
+com\training\testcases\MyprofileTest.class
+com\training\pages\AccountsPage.class
+com\training\pages\LoginPage.class
+com\training\pages\OppurtunitiesPage.class
+com\training\testcases\LoginTest.class
+com\training\testcases\UserMenuTest.class
+com\training\pages\UserMenuPage.class
+com\training\testcases\AccountPageTest.class

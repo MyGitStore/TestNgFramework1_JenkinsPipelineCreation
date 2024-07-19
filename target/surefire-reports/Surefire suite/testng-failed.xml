@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.training.testcases.UserMenuTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="Testcase_9"/>
+          <include name="Testcase_8"/>
+          <include name="MyProfile"/>
+          <include name="teardown"/>
+          <include name="UsermenuDropdown"/>
+        </methods>
+      </class> <!-- com.training.testcases.UserMenuTest -->
+      <class name="com.training.testcases.MySettingsTest">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="teardown"/>
+          <include name="Testcase_7"/>
+        </methods>
+      </class> <!-- com.training.testcases.MySettingsTest -->
+      <class name="com.training.testcases.AccountPageTest">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="Testcase_10"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.training.testcases.AccountPageTest -->
+      <class name="com.training.testcases.LoginTest">
+        <methods>
+          <include name="LoginwithwrongUsernamePassword4B"/>
+          <include name="teardown"/>
+          <include name="Login_RememberMe"/>
+          <include name="LoginwithoutPassword"/>
+          <include name="ForgotUsername_4A"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- com.training.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

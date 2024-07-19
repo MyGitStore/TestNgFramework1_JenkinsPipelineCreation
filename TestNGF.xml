@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Salesforce" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="com.training.listeners.TestListener">
+		</listener>
+	</listeners>
+	<test name="SalesforceTest">
+	<parameter name="browser" value="chrome"/>
+	 <parameter name="username" value="user1" />
+		<classes>
+			<class name="com.training.testcases.LoginTest"/>
+			
+		</classes>
+		
+	</test>
+	
+</suite>
